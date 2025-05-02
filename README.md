@@ -238,7 +238,7 @@ flan <dir>                Remove file
 """
 ```
 
-如果还有问题，请打开问题报告或发送邮件给我：minqwq723897@outlook.com
+如果还有问题，请打开问题报告或发送邮件给主开发者 [minqwq](https://github.com/minqwq) ：minqwq723897@outlook.com
 
 ## 鸣谢
 
