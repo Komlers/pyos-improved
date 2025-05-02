@@ -1,0 +1,11 @@
+{
+    "name": "de_numguess",
+    "version": "2.2",
+    "author": "ElofHew",
+    "description": "A Simple Number Guessing Game",
+    "category": "Game",
+    "tags": ["python", "game"],
+    "min_python_version": "3.4",
+    "target_python_version": "3.12",
+    "compatible_os": "windows"
+}
