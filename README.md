@@ -38,7 +38,7 @@ CPU：任何 x86/x86-64/arm/arm64 兼容的处理器
 
 RAM：至少48MB
 
-磁盘：至少剩余 150MiB
+磁盘：至少剩余 150MB
 
 GPU：未指定
 
@@ -52,11 +52,11 @@ GPU：未指定
 
 ### 推荐配置
 
-CPU：任何 **2007年以后的** 的 x86/x86-64/arm/arm64 兼容的处理器
+CPU：任何 **2007年以后的** x86/x86-64/arm/arm64 兼容的处理器
 
 RAM：至少128MB（建议256MB及以上）
 
-磁盘：至少剩余 256MiB（建议512MB及以上）
+磁盘：至少剩余 256MB（建议512MB及以上）
 
 GPU：集成显卡或独立显卡（建议显存128MB及以上）
 
@@ -72,7 +72,7 @@ GPU：集成显卡或独立显卡（建议显存128MB及以上）
 
 **For Windows**
 
-前往 [Python 官网](https://www.python.org/downloads/) 或 [阿里云镜像源](https://mirrors.aliyun.com/python-release/) 下载安装包。
+前往 [Python 官网](https://www.python.org/downloads/) 或 [阿里云Python镜像站](https://mirrors.aliyun.com/python-release/) 下载安装包。
 
 下载完成后直接安装即可。
 
@@ -133,7 +133,7 @@ python installer_v2.0.py
 ### 手动安装
 
 > [!WARNING]
-> 如果您时新手，建议使用自动安装。否则手动安装对于您来说可能比较困难。
+> 如果您是新手，建议使用自动安装，因为手动安装对于您来说可能比较复杂。
 
 首先，使用 pip 安装模块。
 
@@ -155,7 +155,7 @@ pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/si
 安装模块之后，您需要区分Windows和Linux/MacOS，并按照以下步骤进行配置。
 
 > [!TIP]
-> "config/config.json" 是 PY OS Improved 的配置文件，当你第一次使用时，需要对其进行修改（只需少量更改）
+> "PYOSI/config/config.json" 是 PY OS Improved 的配置文件，当你第一次使用时，需要对其进行修改（只需少量更改）
 
 打开它，找到一行包含 **"isWindows"** 的内容：
 
